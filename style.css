@@ -1,0 +1,180 @@
+/*
+Theme Name: Webpousadas
+Theme URI:
+Author: Des: Raphael Ribeiro  Dev:Thiago Mendes
+Author URI:
+Description: Thema desenvolvido por Thiago Mendes e Raphael Ribeiro
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Bootstrap,HTML, CSS
+Text Domain: Restaurante paladino
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+
+body{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.apresentacao{
+  padding: 40px 0;
+}
+
+.titulo-site{
+  color: #ff9e3b;
+  margin-top: 40px;
+}
+
+.vantangens{
+  background-color: #ececec;
+  padding: 40px 0 60px;
+}
+
+.vantangens .titulo-site{
+  text-align: center;
+}
+
+.linha-vantagens{
+  margin-top: 30px;
+}
+
+/************** SOLUCAO ********************/
+.solucao{
+  padding: 40px 0;
+}
+
+.servicos-personalziado{
+  background: #ff9e3b;
+  color: #36615e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.servicos-title{
+  background: #36615e;
+  color: #ff9e3b;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.table-solucao{
+  text-align: center;
+}
+
+.table-solucao th{
+  padding: 15px 0 !important;
+}
+
+.btn-compra-table img{
+  width: 100%;
+}
+
+.consulte-preco{
+  background: #363636;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 36px 0;
+}
+
+.table-solucao td{
+   padding: 0 !important;
+   line-height: auto !important;
+   vertical-align: middle;
+   border-top: 1px solid transparent !important;
+}
+
+.lista_solucoes{
+  text-align: left;
+}
+
+.btn-quero{
+  background: #36615e;
+  color: #ff9e3b;
+  text-transform: uppercase;
+  border-radius: 0px !important;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
+}
+
+.btn-quero:hover {
+  background: #5c5c5c;
+}
+
+.aviso-site{
+  background: #36615e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+/*****************************************/
+
+.titulo-servicos{
+  color: #36615e;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.btn-exemplo{
+  border-radius: 0px !important;
+  background-color: #ff9e3b;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-contato{
+  border-radius: 0px !important;
+  background-color: #36615e;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer{
+  background: #363636;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+
+footer .fa{
+  margin: 0px 8px;
+  color: #ff9e3b;
+}
+
+/******** MENU ****************/
+.navbar-webpousada{
+  background-color: #5c5c5c;
+  border-radius: 0px;
+}
+
+.navbar-webpousada .nav-link{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* CORRIGE O MENU COLAPSE BOOTSTRAP 4 */
+@media(max-width:34em) {
+    .navbar .navbar-nav>.nav-item {
+        float: none;
+        margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+        float:none !important;
+    }
+    .navbar .collapse.in, .navbar .collapsing  {
+        clear:both;
+    }
+}
