@@ -165,6 +165,45 @@ footer .fa{
   text-transform: uppercase;
 }
 
+.solucao-mobile{
+  display: none;
+}
+
+.navbar-toggler {
+    color: #fff;
+    float: right;
+}
+
+.vantangens-mobile{
+  display: none;
+}
+
+@media (max-width:640px) {
+  .table-solucao, .vantangens{
+    display: none;
+  }
+
+  .solucao-mobile, .vantangens-mobile{
+    display: block;
+  }
+
+  .vantangens-mobile img{
+    margin: 0 auto 20px;
+  }
+
+  .vantangens-mobile{
+    text-align: center  !important;
+  }
+
+  .vantangens-mobile .pull-xs-right{
+    float: none;
+  }
+  .linha-vantagens .text-right{
+    text-align: center !important;
+  }
+}
+
+
 /* CORRIGE O MENU COLAPSE BOOTSTRAP 4 */
 @media(max-width:34em) {
     .navbar .navbar-nav>.nav-item {
